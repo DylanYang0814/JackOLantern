@@ -14,8 +14,9 @@ public class JackOLantern extends java.lang.Object{
         {
             for (int x = 0; x < faceFeatures[i].length; x++)
             {
-                pumpkin += (faceFeatures[i][x]) + "/n";
+                pumpkin += (faceFeatures[i][x]);
             }
+            pumpkin += "/n";
         }
         return pumpkin;
     }
@@ -25,7 +26,7 @@ public class JackOLantern extends java.lang.Object{
         faceFeatures[row][colum] = replace;
     }
 
-    public static void fill (String str)
+    public static void fill (String[][] faceFeatures, String str)
     {
         for (int i = 0 ; i < faceFeatures.length; i++)
         {

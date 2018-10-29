@@ -1,10 +1,10 @@
 public class Runner {
 
-    private static String[][] faceFeatures = {{"      "},{"      "},{"      "},{"      "},{"      "}};
+    private static String[][] faceFeatures = {{"@@@@@@@@@@"},{"@@@@@@@@@@"},{"@@@@@@@@@@"},{"@@@@@@@@@@"},{"@@@@@@@@@@"}};
 
     public static void main(String[] args)
     {
-        JackOLantern.fill("@");
-        System.out.println(faceFeatures.toString());
+        JackOLantern.fill(faceFeatures,"@");
+        
     }
 }
